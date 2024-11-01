@@ -1,0 +1,18 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.owl-carousel.wooproduct_slider{display: inherit !important;}
+.owl-item > div {cursor: pointer; margin: 6% 8%; transition: margin 0.4s ease; }
+.wooproduct_slider .owl-item.center > div {cursor: auto; margin: 0; }
+.wooproduct_slider .owl-item:not(.center) > div:hover {opacity: .75; }
+.owl-carousel.wooproduct_slider .owl-item img {    border: 1px solid #ccc;display: block; width: 90%; border-radius: 50%;    margin: 0 auto; }
+.owl-item p.producttitle{display: none;text-align: center;font-size: 17px;}
+.owl-item.active.center p.producttitle{    display: inherit; text-align: center; position: absolute; bottom: 0; z-index: 9999999; margin: 0 auto; width: 100%;}
+.owl-carousel.wooproduct_slider .owl-item.active.center img {width: 100%; }
+.owl-centered .owl-stage {display: table !important; }
+.owl-centered .owl-item {display: table-cell; float: none !important; vertical-align: middle;  padding-bottom: 50px; }
+.owl-centered .owl-item > div {text-align: center; }
+/*.owl-carousel.wooproduct_slider .owl-nav.disabled {
+     display: inherit; 
+}*/
